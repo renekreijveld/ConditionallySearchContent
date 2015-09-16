@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="search" method="upgrade">
+	<name>plg_search_content_conditional</name>
+	<author>Rene Kreijveld</author>
+	<creationDate>September 2015</creationDate>
+	<copyright>Copyright (C) 2015 Rene Kreijveld Webdevelopment. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@renekreijveld.nl</authorEmail>
+	<authorUrl>www.renekreijveld.nl</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_SEARCH_CONTENT_CONDITIONAL_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="contentconditional">contentconditional.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_search_content_conditional.ini</language>
+		<language tag="en-GB">en-GB.plg_search_content_conditional.sys.ini</language>
+		<language tag="nl-NL">nl-NL.plg_search_content_conditional.ini</language>
+		<language tag="en-GB">nl-NL.plg_search_content_conditional.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="search_categories"
+					type="category"
+					extension="com_content"
+					multiple="true" size="10"
+					label="PLG_SEARCH_CONTENT_CONDITIONAL_FIELD_SEARCHCATEGORIES_LABEL"
+					description="PLG_SEARCH_CONTENT_CONDITIONAL_FIELD_SEARCHCATEGORIES_DESC"
+				>
+					<option value="">JOPTION_ALL_CATEGORIES</option>
+				</field>
+
+				<field name="cat_include" type="radio"
+					class="btn-group btn-group-yesno"
+					default="1"
+					description="PLG_SEARCH_CONTENT_CONDITIONAL_FIELD_CATINCLUDE_DESC"
+					label="PLG_SEARCH_CONTENT_CONDITIONAL_FIELD_CATINCLUDE_LABEL"
+				>
+					<option value="1">PLG_SEARCH_CONTENT_CONDITIONAL_FIELD_CATINCLUDE_VALUE_INCLUDE</option>
+					<option value="0">PLG_SEARCH_CONTENT_CONDITIONAL_FIELD_CATINCLUDE_VALUE_EXCLUDE</option>
+				</field>
+
+				<field name="search_limit" type="text"
+					default="50"
+					description="PLG_SEARCH_CONTENT_CONDITIONAL_FIELD_SEARCHLIMIT_DESC"
+					label="PLG_SEARCH_CONTENT_CONDITIONAL_FIELD_SEARCHLIMIT_LABEL"
+					size="5"
+				/>
+
+				<field name="search_archived" type="radio"
+					class="btn-group btn-group-yesno"
+					default="0"
+					description="PLG_SEARCH_CONTENT_CONDITIONAL_FIELD_ARCHIVED_DESC"
+					label="PLG_SEARCH_CONTENT_CONDITIONAL_FIELD_ARCHIVED_LABEL"
+				>
+					<option value="1">JON</option>
+					<option value="0">JOFF</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
