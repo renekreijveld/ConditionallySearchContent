@@ -11,12 +11,13 @@
 	<description>PLG_SEARCH_CONTENT_CONDITIONAL_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="contentconditional">contentconditional.php</filename>
+		<filename>README.md</filename>
 	</files>
 	<languages>
-		<language tag="en-GB">en-GB.plg_search_content_conditional.ini</language>
-		<language tag="en-GB">en-GB.plg_search_content_conditional.sys.ini</language>
-		<language tag="nl-NL">nl-NL.plg_search_content_conditional.ini</language>
-		<language tag="en-GB">nl-NL.plg_search_content_conditional.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_search_contentconditional.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_search_contentconditional.sys.ini</language>
+		<language tag="nl-NL">language/nl-NL/nl-NL.plg_search_contentconditional.ini</language>
+		<language tag="nl-NL">language/nl-NL/nl-NL.plg_search_contentconditional.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
