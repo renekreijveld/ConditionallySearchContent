@@ -19,13 +19,13 @@ Installation instructions
 
 * After installation go to Extensions > Plugins and in the filter on the left Select Type: search.
 
-* Unpublish the standard Search - Content plugin.
+* Unpublish the standard **Search - Content** plugin.
 
-* Publish the Search - Content - Conditional plugin.
+* Publish the **Search - Content - Conditional** plugin.
 
 * Go into the plugin settings by clicking on Search - Content - Conditional.
 
-* Choose the Categaories that you want the plugin to search in (or that you want to exclude).
+* Choose the Categories that you want the plugin to search in (or that you want to exclude).
 
 * Choose Incluse or Exclusive with the Category selection
 
