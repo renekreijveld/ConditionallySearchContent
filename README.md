@@ -8,7 +8,7 @@ Functions
 
 * The plugin also has a category selection setting that can either by 'inclusive' or 'exclusive'. InclusiveL the plugin will search in all selected categories. Exclusive: the plugin will search in all categories except the selected categories.
 
-Written by: Rene Kreijveld
+Written by: Rene Kreijveld.
 Code based on the original content search plugin and an idea of Paul Delbar.
 
 Version history:
