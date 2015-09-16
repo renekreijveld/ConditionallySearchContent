@@ -6,7 +6,7 @@
  * @copyright   Copyright (C) 2015 Rene Kreijveld All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  * 
- * Written by: Rene Kreijveld, code based on ideas of Paul Delbar
+ * Written by: Rene Kreijveld, code based on the original Search Content plugin and ideas and suggestions by Paul Delbar.
  */
 
 defined('_JEXEC') or die;
