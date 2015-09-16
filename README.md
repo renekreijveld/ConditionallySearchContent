@@ -17,7 +17,7 @@ Installation instructions
 
 1. Go to the Joomla extension manager and install the plugin through URL:
 
-http://www.rkrweb.nl/update/plg_search_contentconditional/plg_search_contentconditional.1.0.0.zip
+...http://www.rkrweb.nl/update/plg_search_contentconditional/plg_search_contentconditional.1.0.0.zip
 
 2. After installation go to Extensions > Plugins and in the filter on the left Select Type: search.
 
