@@ -27,7 +27,7 @@ Installation instructions
 
 6. Choose the Categories that you want the plugin to search in (or that you want to exclude). If you choose nothing or All Categories the plugin will work the same as the default Search Content plugin.
 
-7. Choose Incluse or Exclusive with the Category selection. Incluse means the plugin will search in the chosen categories of step 6. Exclusive means the plugin will **not** search in the chosen categories of step 6.
+7. Choose Incluse or Exclusive with the Category selection. Incluse means the plugin will search in the chosen categories of step 6. Exclusive means the plugin will **not** search (ignore) in the chosen categories of step 6.
 
 8. Save & Close.
 
